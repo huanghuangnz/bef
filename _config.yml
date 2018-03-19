@@ -65,8 +65,8 @@ prose:
     _posts:
       - name: "layout"
         field:
-          element: "text"
-          value: "post"
+          element: "hidden"
+          value: "blog"
       - name: "tags"
         field:
           element: "multiselect"
@@ -77,3 +77,13 @@ prose:
               value: "apples"
             - name: "Bananas"
               value: "bananas"
+    _posts/static:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          value: ""
