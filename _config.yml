@@ -74,6 +74,6 @@ prose:
           placeholder: "Choose Tags"
           options:
             - name: "wlx"
-              value: "微留学"
+              value: "wlx"
             - name: "blog"
-              value: "见闻"
+              value: "blog"
