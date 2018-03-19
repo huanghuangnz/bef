@@ -50,7 +50,6 @@ plugins:
 
 include: [_pages]
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
-baseurl: "/bef" # the subpath of your site, e.g. /blog
 
 prose:
   rooturl: '_posts'
@@ -66,7 +65,7 @@ prose:
       - name: "layout"
         field:
           element: "hidden"
-          value: "blog"
+          value: "post"
       - name: "tags"
         field:
           element: "multiselect"
