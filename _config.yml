@@ -66,6 +66,10 @@ prose:
         field:
           element: "text"
           label: "title"
+      - name: "img"
+        field:
+          element: "text"
+          label: "img"
       - name: "layout"
         field:
           element: "hidden"
