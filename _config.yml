@@ -73,7 +73,7 @@ prose:
           label: "Add Tags"
           placeholder: "Choose Tags"
           options:
-            - name: "wlx"
-              value: "wlx"
-            - name: "blog"
-              value: "blog"
+            - name: "Apples"
+              value: "apples"
+            - name: "Bananas"
+              value: "bananas"
