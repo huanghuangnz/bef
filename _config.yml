@@ -51,6 +51,9 @@ plugins:
 include: [_pages]
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
 
+sass:
+    sass_dir: assets/css/sass
+
 prose:
   rooturl: '_posts'
   siteurl: 'https://huanghuangnz.github.io/wlx'
